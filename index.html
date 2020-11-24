@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Belarusian settlements with Jewish population (XIX century)</title>
+	<link rel="shortcut icon" href="DavidStar.ico" type="image/x-icon">
+    <script src="lib/require.js" data-main="app"></script>
+    <link rel="stylesheet" type="text/css" href="lib/leaflet.css">
+    <style>
+      body {
+          background-color: #eee;
+          font-family: sans-serif;
+      }
+      .leaflet-container {
+          background-color: #fff;
+          height: 800px;
+          margin: 1em;
+          border: 1px solid #999;
+      }
+	  .my-label {
+		position: absolute;		
+		font-size:14px;
+		color:red;
+	}
+    </style>
+  </head>
+  <body>
+      
+    <h3>Belarusian settlements with Jewish population (XIX century), by Alyaxey Yaskevich</h3>
+    <!-- <p>Click the map to get information about the underlying data.</p> -->
+	<p>Change the opacity to see current map under historical one. Click markers to see the place names</p>
+    <form>
+      <label for="range-overlay-map">Opacity</label>
+      <input id="range-overlay-map" type="range" min=0 max=1 step=0.1 value=1>
+    </form>
+    <div id="overlay-map"></div>
+    <!-- <h3>Tiled Layer</h3> -->
+    <!-- <p>Click the map to get information about the underlying data.</p> -->
+    <!-- <form> -->
+      <!-- <label for="range-tiled-map">Opacity</label> -->
+      <!-- <input id="range-tiled-map" type="range" min=0 max=1 step=0.1 value=1> -->
+    <!-- </form> -->
+    <!-- <div id="tiled-map"></div> -->
+	Overlay Map is from <a href="https://library.harvard.edu/libraries/harvard-map-collection">Harvard Map Collection<a/>: <a href="https://maps.princeton.edu/catalog/harvard-g3201-s12-1885-b7">World Map Showing the Voyages of the Vettor Pisani,</a> <a href="http://hgl.harvard.edu:8080/HGL/jsp/HGL.jsp?action=VColl&VCollName=G3201_S12_1885_B7">1882-1885 </a>
+	
+  </body>
+</html>
